@@ -13,12 +13,21 @@ header a {
     background-color: rgb(233, 169, 97);
     padding-right: 45px;
 }
+.timer {
+    display: none;
+    flex-direction: column;
+    font-size: 20px;
+}
 
 #intro {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 80px;
+}
+.timer {
+    display: flex;
+    justify-content: flex-end;
 }
 h1 {
     background-color: rgb(233, 169, 97);
@@ -32,4 +41,23 @@ h1 {
 #intro button {
     padding: 10px;
     /* background-color: rgb(233, 169, 97); */
+}
+.hide {
+    display: none;
+}
+
+.quizBox {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(233, 169, 97);
+    color: white;
+}
+
+.resultBox {
+    background-color: rgb(233, 169, 97);
+    color: white;
+    display: none;
+    justify-content: center;
+    padding: 20px;
 }
